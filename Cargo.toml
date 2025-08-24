@@ -1,0 +1,12 @@
+[package]
+name = "rust-otp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+base32 = "0.4"
+hmac = "0.12"
+sha1 = "0.10"
+rand = "0.8"
+indicatif = "0.18.0"
+chrono = "0.4.41"
